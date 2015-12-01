@@ -1,0 +1,30 @@
+Step 1:
+	https://developer.spotify.com/
+	Log In
+		username: apistudent
+		password: i love apis
+	"My Apps"
+	"API Tutor"
+	Client ID: f1a22549402247db95127ffcb94b3956
+	Client Secret Key: a13e82fe6bbb4763ad6cab83de5a978d
+
+
+
+GET https://accounts.spotify.com/authorize/
+?client_id=f1a22549402247db95127ffcb94b3956
+&response_type=code
+&redirect_uri=http://www.apitutor.org
+
+
+
+
+
+
+
+
+
+
+Step 2:
+	https://developer.spotify.com/web-api/endpoint-reference/
+	Get an artist
+	/v1/artists/{id}

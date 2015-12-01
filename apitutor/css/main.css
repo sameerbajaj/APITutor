@@ -1,0 +1,332 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+.item{
+	margin: 0px 0px 0px 0px;
+	overflow: auto;
+	height: 625px;
+	border-left: #333 15px solid;
+}
+
+.item p {
+	padding: 2% 15% 0% 0%;
+}
+
+
+/* Change below together*/
+
+.stages{
+	padding: 9% 0% 0% 5%;
+}
+
+#json-text{
+  margin-left:5%;
+  overflow: auto;
+  /*height: 30%;*/
+  background-color: #eee;
+}
+
+pre {
+	background-color: #eee;
+	height: 300px;
+}
+
+pre #json-text {
+	height: 50%;
+}
+
+.col-xs-6 {
+	background-color: #333;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.col-xs-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+button, .btn {
+	margin: 10px 0px 10px 0px;
+}
+
+.overview_lesson button {
+	background-color: #336E35;
+	color: #fff;
+	border-color: #fff;
+}
+
+.call_lesson button {
+	background-color: #3C3D69;
+	color: #CDEAFB;
+	border-color: #CDEAFB;
+}
+
+.parse_lesson button {
+	background-color: #B01E3B;
+	color: #FCEA88;
+	border-color: #FCEA88;
+}
+
+
+/* Change below willy-nilly */
+
+
+
+#stage {
+	width: 50%;
+	height:auto;
+}
+
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+.stage-and-json {
+	background-color: #333;
+	height: 625px;
+}
+
+.stage-and-json img {
+	width: 100%;
+	border-bottom: 10px #333 solid;
+}
+
+.overview_lesson {
+	background-color: #5ABA47;
+	padding: 25px;
+	height: 625px;
+}
+
+.overview_lesson p, .call_lesson p, .parse_lesson p {
+	background-color: #fff;
+	padding: 10px;
+}
+
+
+.call_lesson {
+	background-color: #78789F;
+	padding: 25px;
+}
+
+
+.parse_lesson {
+	background-color: #EE3042;
+	padding: 25px;
+}
+
+#top-spacing {
+	background-color: #D5E8B5;
+}
+
+.icon-header{
+	margin-left: 20%;
+	margin-right:20%;
+}
+
+.icons {
+	width: 45px;
+	height: 45px;
+	margin: 0px 0px 0px 0px;
+}
+
+.round.highlighted {
+	border: 3px #333 solid;	
+	border-radius: 25px;
+}
+
+.bookends.highlighted {
+	border: 3px #333 solid;
+}
+
+
+#authentication-key{
+  opacity: .2;
+}
+
+
+#call-icon1{
+  opacity: .2;
+}
+
+#call-icon2 {
+	opacity: .2;
+}
+
+#parse-icon1{
+  opacity: .2;
+
+}
+#parse-icon2{
+  opacity: .2;
+
+}
+
+#top-spacing{
+	padding: 25px 0px 25px 0px;
+}
+
+
+
+
+
+
+/* Set initial feedback to invisible */
+
+#status-feedback{
+	display:none;
+}
+
+#client-secret-key-feedback{
+	display:none;
+}
+
+#api-call-feedback{
+	display:none;
+}
+
+#artist-name-feedback{
+	display: none;
+}
+
+
+#artist-popularity-feedback{
+	display: none;
+}
+
+
+
+/**Landing Page Exclusively**/
+
+body #landing_page {
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+#landing_page nav ul li {
+	list-style: none;
+	display: inline-block;
+	color: #fff;
+	border: 1px #fff solid;
+	border-radius: 5%;
+	padding: 10px 10px;
+	margin-right: 10px;
+}
+
+#landing_page #navbar_stuff {
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: #F5AE0A;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#banner {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #F5AE0A;
+}
+
+#banner_title {
+	font-size: 100px;
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+#module_collection_wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#module_collection_wrapper a {
+	text-decoration: none;
+}
+
+#module_collection_wrapper h1 {
+	padding: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.module_wrapper {
+	height: 400px;
+	width: 300px;
+	padding: 10px;
+	display: inline-block;
+	margin: 10px 25px 10px 25px;
+}
+
+.module_title {
+	text-align: center;
+	display: block;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+#facebook {
+	background-color: #78789F;
+}
+
+#marvel {
+	background-color: #EE3042;
+}
+
+#spotify {
+	background-color: #5ABA47;
+}
+
+.module_image img {
+	visibility: hidden;
+}
+
+.module_image {
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: 50% 95%;
+	background-size: cover;	
+}
+
+.module_image p {
+	opacity: 0;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 300px;
+	margin-top: -305px;
+	text-align: center;
+}
+
+
+.module_wrapper:hover .module_image p {
+	opacity: 0.85;
+	background-color: #333;
+	color: #fff;
+}
+
+
+
+#spotify .module_image {
+	background-image: url("http://cdn.cultofmac.com/wp-content/uploads/2012/08/spotify-logo.jpg");
+}
+
+#marvel .module_image {
+	background-image: url("http://blogs-images.forbes.com/scottmendelson/files/2015/07/marvel-logo-wallpaper.jpg");
+}
+
+#facebook .module_image {
+	background-image: url("http://wallpapersdsc.net/wp-content/uploads/2015/10/Facebook_9.jpg");
+}
+
+h6 {
+	text-align: center;
+}
+
+
+
